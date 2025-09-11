@@ -1,3 +1,4 @@
+import PageHeader from '@/components/pageHeader';
 import './globals.css';
 
 export const metadata = {
@@ -30,6 +31,7 @@ export default function RootLayout({ children }) {
           </svg>
         </div>
 
+        <PageHeader />
         {children}
       </body>
     </html>
