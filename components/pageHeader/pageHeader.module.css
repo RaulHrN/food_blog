@@ -1,4 +1,4 @@
-.page_header {
+.page-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -7,18 +7,18 @@
     color: #f8f8f8;
 }
 
-.header_title {
+.header-title {
     display: flex;
     align-items: center;
     gap: 1rem;
 }
 
-.header_nav a {
+.header-nav a {
     margin: 0 1rem;
     text-decoration: none;
     color: #f8f8f8;
 }
 
-.header_nav a:hover {
+.header-nav a:hover {
     text-decoration: underline;
 }
